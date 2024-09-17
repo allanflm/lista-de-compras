@@ -1,4 +1,4 @@
-# Titulo do projeto
+# Lista De Compras
 
 Aplicação web de lista de compras.
 
