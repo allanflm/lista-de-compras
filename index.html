@@ -18,14 +18,17 @@
             <img src="img/bag.png" alt="sacola de compras" />
             <form>
                 <input
+                    class="input-item"
                     id="input-item"
                     type="text"
                     placeholder="Digite o item que voce deseja adicionar"
                 />
-                <button id="adicionar-botao">Salvar item</button>
+                <button class="adicionar-botao" id="adicionar-item">
+                    Salvar item
+                </button>
             </form>
 
-            <ul>
+            <ul id="lista-de-compras">
                 <h2>Lista de compras</h2>
                 <hr />
                 <li>
@@ -60,5 +63,6 @@
                 </li>
             </ul>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
